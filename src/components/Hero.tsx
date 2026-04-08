@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
       </div>
 
-      <div className="max-w-7xl mx-auto grid lg:grid-template-columns-[1.2fr_1fr] gap-12 items-center relative z-10">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center relative z-10">
         <div ref={textRef} className="space-y-8">
           <div className="hero-text inline-flex items-center gap-2 px-4 py-2 rounded-full glass border-gold/20 text-gold text-xs font-bold uppercase tracking-[0.2em]">
             <span className="relative flex h-2 w-2">
